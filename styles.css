@@ -18,12 +18,17 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
 }
-table{
+.table{
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   font-size: small;
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 5%;
   border-color: red;
+}
+
+.list{
+  text-align: center;
 }
