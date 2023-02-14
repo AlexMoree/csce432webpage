@@ -46,5 +46,24 @@
         <li>Coffee</li>
         <li>Milk</li>
       </ul> 
+
+      <form method="GET" action="mailto:test@example.com" enctype="text/plain">
+        <div>Subject</div>
+        <input type="text" name="subject" />
+    
+        <div>Name</div>
+        <input name="Name" />
+    
+        <div>E-Mail</div>
+        <input name="E-Mail Address" />
+    
+        <div>Message</div>
+        <textarea name="Message"></textarea>
+    
+        <br/>
+        <input type="submit" value="Send" />
+    
+        <input type="hidden" name="body" />
+    </form>
     </body>
 </html>
